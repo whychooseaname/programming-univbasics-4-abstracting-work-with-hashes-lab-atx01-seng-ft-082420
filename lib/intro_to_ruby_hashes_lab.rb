@@ -1,5 +1,5 @@
 def my_hash_creator(key, value)
-  hash=hash.new{key=>value}
+  hash=hash.new{:key=>"value"}
   }
 end
 
